@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/plr0xnk.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/08ee4e3b4b.js"></script>
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Seoulify</title>
+</head>
+
+<body>
+  <!-- Follows BEM naming methodology  -->
+
+  <div class="grid-container-1">
+    <header class="header">
+      <nav class="navbar d-flex p-4">
+        <select class="navbar__dropdown">
+          <option value="volvo">English</option>
+          <option value="saab">Spanish</option>
+        </select>
+        <img src="images/search.svg" alt="search" class="navbar__icon mr-auto" />
+
+        <a href="#" class="navbar__link navbar__link--active">Home</a>
+        <a href="#" class="navbar__link">New arrival</a>
+        <a href="#" class="navbar__link">Dresses</a>
+        <a href="#" class="navbar__link">
+          <img src="images/seoulify-logo.png" alt="logo" class="logo" />
+        </a>
+        <a href="#" class="navbar__link">Tops</a>
+        <a href="#" class="navbar__link">Ballerina</a>
+        <a href="#" class="navbar__link mr-auto">Eyewear</a>
+
+        <img src="images/heart.svg" alt="heart" class="navbar__icon" />
+        <p>0.00$</p>
+        <a href="#" class="navbar__link">
+          <div class="navbar__link navbar__link--bag"></div>
+        </a>
+      </nav>
+    </header>
+    <section class="cta">
+      <div class="cta__info">
+        <h2 class="cta__heading-2 mb-4">03. FW 2019 LIMITED EDITION</h2>
+        <h1 class="heading heading--cta mb-3">
+          FW 2019<br />
+          limited edition
+        </h1>
+        <p class="cta__text">
+          Shop the category<span class="cta__rightarrow">&gt;</span>
+        </p>
+      </div>
+      <img src="images/bag-2.png" alt="bag" class="cta__image" />
+    </section>
+    <div class="actions ml-4">
+      <p class="actions__share mb-5">SHARE</p>
+      <a href="#" class="btn btn__add mb-5">
+        <img src="images/add.svg" alt="add" class="btn__addicon" />
+      </a>
+    </div>
+    <a href="#" class="mb-5 btn btn__scrolldown">
+      <img src="images/arrow-down.svg" alt="arrow-down" class="btn__scrolldownicon" />
+    </a>
+    <section class="carousel">
+      <img src="images/model-2.png" alt="model" class="carousel__image" />
+    </section>
+    <div class="shipping d-flex p-5">
+      <img src="images/airplane.svg" alt="airplane" class="shipping__icon mr-5 ml-3">
+      <p class="shipping__text"><span class="font-weight-bold">Free shipping: </span>get free shipping from our Special
+        Service and not redeemable for cash or credit. <span><a class="font-weight-bold shipping__detailslink"
+            href="#">See details</a></span></p>
+    </div>
+  </div>
+  <section class="collection d-flex align-items-center">
+    <div class="collection__info">
+      <p class="info__text mb-4">Collection AW 2019</p>
+      <h1 class="heading heading--info mb-5">
+        Cotton textured<br>
+        sweaters<br>
+        from <span class="heading--infoprice">$14.99</span>
+      </h1>
+      <a href="#" class="btn-2 btn-2--info d-inline-block">
+        Go shopping &gt;
+      </a>
+    </div>
+    <div class="collection__itembox">
+        <div class="collection__item mb-4">
+            <a href="#" class="btn-2 btn-2--sale d-inline-block">SALE</a>
+            <a href="#" class="btn-2 btn-2--item-1 d-inline-block">Save</a>
+            <a href="#" class="btn-2 btn-2--item-2 d-inline-block">Quickview</a>
+          </div>
+          <p class="collection__description mb-2">Jackets & Coats</p>
+          <p class="mb-2 heading heading--itemtitle font-weight-bold">Open-front coat</p>
+          <p class="collection__description mb-2 font-weight-bold"><span class="collection__price collection__price--old">250.00$</span>&nbsp;&nbsp;<span class="collection__price collection__price--new">120.00$</span></p>
+
+    </div>
+    <div class="collection__itembox collection__itembox--big">
+        <div class="collection__item collection__item--big mb-4">
+            <a href="#" class="btn-2 btn-2--sale d-inline-block">SALE</a>
+            <a href="#" class="btn-2 btn-2--item-1 d-inline-block">Save</a>
+            <a href="#" class="btn-2 btn-2--item-2 d-inline-block">Quickview</a>
+          </div>
+          <p class="collection__description mb-2">Jumpers & Cardigans</p>
+          <p class="mb-2 heading heading--itemtitle font-weight-bold">Cable knitted neck wear</p>
+          <p class="collection__description mb-2 font-weight-bold"><span class="collection__price collection__price--old">139.00$</span>&nbsp;&nbsp;<span class="collection__price collection__price--new">68.00$</span></p>
+
+    </div>
+    
+  </section>
+
+  <section class="collection d-flex flex-row-reverse align-items-center">
+      <div class="collection__info collection__info--reverse">
+        <p class="info__text mb-4">Collection AW 2019</p>
+        <h1 class="heading heading--info mb-5">
+          Cotton textured<br>
+          sweaters<br>
+          from <span class="heading--infoprice">$14.99</span>
+        </h1>
+        <a href="#" class="btn-2 btn-2--info d-inline-block">
+          Go shopping &gt;
+        </a>
+      </div>
+      <div class="collection__itembox">
+          <div class="collection__item mb-4">
+              <a href="#" class="btn-2 btn-2--sale d-inline-block">SALE</a>
+              <a href="#" class="btn-2 btn-2--item-1 d-inline-block">Save</a>
+              <a href="#" class="btn-2 btn-2--item-2 d-inline-block">Quickview</a>
+            </div>
+            <p class="collection__description mb-2">Jackets & Coats</p>
+            <p class="mb-2 heading heading--itemtitle font-weight-bold">Open-front coat</p>
+            <p class="collection__description mb-2 font-weight-bold"><span class="collection__price collection__price--old">250.00$</span>&nbsp;&nbsp;<span class="collection__price collection__price--new">120.00$</span></p>
+  
+      </div>
+      <div class="collection__itembox collection__itembox--big collection__itembox--reverse">
+          <div class="collection__item collection__item--big mb-4">
+              <a href="#" class="btn-2 btn-2--sale d-inline-block">SALE</a>
+              <a href="#" class="btn-2 btn-2--item-1 d-inline-block">Save</a>
+              <a href="#" class="btn-2 btn-2--item-2 d-inline-block">Quickview</a>
+            </div>
+            <p class="collection__description mb-2">Jumpers & Cardigans</p>
+            <p class="mb-2 heading heading--itemtitle font-weight-bold">Cable knitted neck wear</p>
+            <p class="collection__description mb-2 font-weight-bold"><span class="collection__price collection__price--old">139.00$</span>&nbsp;&nbsp;<span class="collection__price collection__price--new">68.00$</span></p>
+  
+      </div>
+      
+    </section>
+
+</body>
+
+</html>

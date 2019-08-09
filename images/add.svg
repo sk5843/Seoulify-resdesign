@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.905" height="22.905" viewBox="0 0 22.905 22.905">
+    <defs>
+        <style>
+            .cls-1{fill:#32353c}
+        </style>
+    </defs>
+    <path id="ios-add" d="M148.979 137.526h-8.6v-8.6a1.426 1.426 0 0 0-2.852 0v8.6h-8.6a1.426 1.426 0 0 0 0 2.852h8.6v8.6a1.426 1.426 0 1 0 2.852 0v-8.6h8.6a1.426 1.426 0 0 0 0-2.852z" class="cls-1" transform="translate(-127.5 -127.5)"/>
+</svg>

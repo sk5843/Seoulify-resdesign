@@ -1,0 +1,62 @@
+.collection{
+    height: 90vh;
+    padding: 6rem;
+    margin-top: 5rem;
+   
+    &__itembox{
+        &--big{
+            margin-left: 14rem;
+        }
+        &--reverse{
+            margin-right: 14rem;
+            margin-left: 0;
+        }
+    }
+    &__item{
+        padding: 2rem;
+        background-image: url("../images/model-3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55vh;
+        width: 40vh;
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: flex-start;
+        justify-items: center;
+        &--big{
+            height: 70vh;
+            width: 50vh;
+            background-image: url("../images/model-1.png");
+        }
+        
+    }
+
+    &__info{
+        margin-right: 12rem;
+        &--reverse{
+            margin-left: 12rem;
+            margin-right: 10rem;
+        }
+    }
+    &__price{
+        &--old{
+            text-decoration: line-through;
+            color: $color-text-4;
+
+        }
+
+    }
+}
+
+.info{
+
+    &__text{
+        font-size: 2.4rem;
+    }
+}
+
+.collection .flex-row-reverse{
+    height: 100vh;
+    
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.005" viewBox="0 0 20 20.005">
+    <defs>
+        <style>
+            .cls-1{fill:#32353c}
+        </style>
+    </defs>
+    <path id="ios-search" d="M83.765 82.457L78.2 76.843a7.927 7.927 0 1 0-1.2 1.218l5.526 5.578a.856.856 0 0 0 1.208.031.862.862 0 0 0 .031-1.213zm-11.791-4.328A6.259 6.259 0 1 1 76.4 76.3a6.221 6.221 0 0 1-4.426 1.829z" class="cls-1" transform="translate(-64 -63.9)"/>
+</svg>

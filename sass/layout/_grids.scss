@@ -5,10 +5,12 @@
     overflow-x: hidden;
     
   }
-//   .grid-container-2{
-//     display: grid;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: 14vh 86vh;
-//     overflow-x: hidden;
+  //TODO
+  .grid-container-2{
+    display: grid;
+    grid-template-columns: calc(50%-4) repeat(2, 1fr);
+    grid-gap: 2rem;
+    grid-template-rows: repeat(2, min-content);
+    overflow-x: hidden;
     
-//   }
+  }

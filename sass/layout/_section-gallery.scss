@@ -1,0 +1,13 @@
+.gallery{
+    overflow-x: auto;
+    margin-bottom: 10rem;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+    &__item{
+        display: block;
+        min-width: 200px;
+        margin-right: 1.5rem;
+        
+    }
+}

@@ -29,6 +29,15 @@
             width: 50vh;
             background-image: url("../images/model-1.png");
         }
+
+        &--reverse{
+            background-image: url("../images/model-3.png");
+        }
+        &--reversebig{
+            background-image: url("../images/model-4.jpg");
+            height: 70vh;
+            width: 50vh;
+        }
         
     }
 

@@ -35,6 +35,11 @@ body {
     color: #b79b6c; }
   .heading--itemtitle {
     font-size: 2rem; }
+  .heading--newsletter {
+    font-size: 2.6rem;
+    letter-spacing: 0.8px; }
+  .heading--share {
+    letter-spacing: 0.8px; }
 
 .cta__heading-2 {
   color: #b79b6c;
@@ -128,6 +133,8 @@ body {
 
 .logo {
   width: 10vw; }
+  .logo--social {
+    width: 16px; }
 
 .carousel {
   grid-row: 1 /3;
@@ -232,6 +239,13 @@ body {
     align-self: flex-start;
     justify-self: start;
     background-color: #b79b6c; }
+  .btn-2--newsletter {
+    border-radius: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    transform: translateX(-5px);
+    padding: 1.15rem 2.5rem; }
 
 .shipping {
   background-color: #f9f9f9;
@@ -250,6 +264,13 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 14vh 86vh;
+  overflow-x: hidden; }
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: calc(50%-4) repeat(2, 1fr);
+  grid-gap: 2rem;
+  grid-template-rows: repeat(2, min-content);
   overflow-x: hidden; }
 
 .collection {
@@ -276,6 +297,12 @@ body {
       height: 70vh;
       width: 50vh;
       background-image: url("../images/model-1.png"); }
+    .collection__item--reverse {
+      background-image: url("../images/model-3.png"); }
+    .collection__item--reversebig {
+      background-image: url("../images/model-4.jpg");
+      height: 70vh;
+      width: 50vh; }
   .collection__info {
     margin-right: 12rem; }
     .collection__info--reverse {
@@ -290,3 +317,37 @@ body {
 
 .collection .flex-row-reverse {
   height: 100vh; }
+
+.newsletter {
+  background-image: url(../images/bg@2x.jpg);
+  background-size: cover;
+  height: 70vh;
+  margin-top: 10rem; }
+  .newsletter__description {
+    font-size: 1.6rem;
+    letter-spacing: 0.8px; }
+  .newsletter__form {
+    padding: 10rem 18rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); }
+  .newsletter__emailfield {
+    padding: 1rem 15rem 1rem 1rem; }
+  .newsletter__privacy {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px; }
+
+.share {
+  padding: 7rem; }
+  .share__text {
+    letter-spacing: 0.55px;
+    font-size: 1.6rem; }
+
+.gallery {
+  overflow-x: auto;
+  margin-bottom: 10rem; }
+  .gallery::-webkit-scrollbar {
+    display: none; }
+  .gallery__item {
+    display: block;
+    min-width: 200px;
+    margin-right: 1.5rem; }

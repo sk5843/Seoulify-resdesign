@@ -21,6 +21,13 @@ body {
   &--itemtitle{
     font-size: 2rem;
   }
+  &--newsletter{
+    font-size: 2.6rem;
+    letter-spacing: 0.8px;
+  }
+  &--share{
+    letter-spacing: 0.8px;
+  }
 }
 
 .cta {

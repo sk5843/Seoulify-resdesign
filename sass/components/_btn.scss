@@ -39,9 +39,7 @@
     text-decoration: none;
     color:$color-primary;
   }
-  &--info{
-
-  }
+  
   &--item-1{
     grid-column: 1/-1;
     grid-row: 2/3;
@@ -65,5 +63,13 @@
     justify-self: start;
     background-color: $color-primary;
    
+  }
+  &--newsletter{
+    border-radius: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    transform: translateX(-5px);
+    padding: 1.15rem 2.5rem;
   }
 }

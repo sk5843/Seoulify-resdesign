@@ -395,6 +395,7 @@ body {
   .gallery__item {
     display: block;
     min-width: 200px;
+    height: 200px;
     margin-right: 1.5rem; }
 
 .blogitem {

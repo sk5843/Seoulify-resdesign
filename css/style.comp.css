@@ -10,6 +10,7 @@
 html {
   box-sizing: border-box;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   font-size: 62.5%; }
   @media only screen and (max-width: 600px) {
     html {
@@ -176,6 +177,50 @@ body {
   .carousel__image {
     width: 100%;
     height: 100vh; }
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0); }
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0); }
+
+ol.carousel-indicators {
+  position: absolute;
+  flex-direction: column;
+  width: auto;
+  bottom: 40%;
+  left: 80%; }
+
+.numbered--1::before {
+  content: "01";
+  transform: translateY(-10px); }
+
+.numbered--2::before {
+  content: "02";
+  transform: translateY(-10px); }
+
+.numbered--3::before {
+  content: "03";
+  transform: translateY(-10px); }
+
+.numbered::before {
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  left: -20px; }
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  text-indent: 0; }
 
 .cta {
   justify-self: center;

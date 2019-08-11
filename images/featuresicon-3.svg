@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1{fill:#33363b}
+        </style>
+    </defs>
+    <path id="ICON_3" d="M36 6A30 30 0 1 1 6 36 30.034 30.034 0 0 1 36 6zm0-6a36 36 0 1 0 36 36A36 36 0 0 0 36 0zm12 51H24V33h24zM30 33v-6a6 6 0 0 1 12 0v6h3v-6a9 9 0 0 0-18 0v6z" class="cls-1" data-name="ICON 3"/>
+</svg>

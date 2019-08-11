@@ -5,12 +5,14 @@
     overflow-x: hidden;
     
   }
-  //TODO
+ 
   .grid-container-2{
+    height: 130vh;
+    padding: 6rem;
     display: grid;
-    grid-template-columns: calc(50%-4) repeat(2, 1fr);
-    grid-gap: 2rem;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    grid-template-rows: repeat(2, 1fr);
     overflow-x: hidden;
     
   }

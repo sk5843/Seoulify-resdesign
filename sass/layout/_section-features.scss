@@ -1,0 +1,15 @@
+.features{
+    padding: 6rem;
+    & > *{
+        display: inline-block;
+        // margin-right: 3rem;
+        text-align: center;
+    }
+    &__icon{
+        margin-bottom: 3rem;
+        width: 5rem;
+    }
+    &__description{
+        letter-spacing: 0.55px;
+    }
+}

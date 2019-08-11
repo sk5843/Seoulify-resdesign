@@ -28,6 +28,15 @@ body {
   &--share{
     letter-spacing: 0.8px;
   }
+  &--features{
+    letter-spacing: 0.7px;
+  }
+  &--footeritem{
+    margin-bottom: 4rem;
+    color: $color-text-2;
+    letter-spacing: 0.7px;
+    font-size: 2rem;
+  }
 }
 
 .cta {

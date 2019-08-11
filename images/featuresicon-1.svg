@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ICON_1" width="80" height="72" data-name="ICON 1" viewBox="0 0 80 72">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#33363b}.cls-1{fill-rule:evenodd}
+        </style>
+    </defs>
+    <path id="Path_2" d="M61.667 36A18 18 0 1 0 80 54a18.173 18.173 0 0 0-18.333-18zM39.553 65.455H0V0h73.333v32.289a25.141 25.141 0 0 0-6.667-2.343V6.545H43.333v19.637H30V6.545H6.667v52.364h30.5a24.1 24.1 0 0 0 2.386 6.546zm20.063-9.622l-4.2-3.868-3.203 3.235 7.467 6.981 12.55-12.547-3.263-3.174z" class="cls-1" data-name="Path 2"/>
+    <path id="Path_3" d="M6.486 19.059h7.568v2.118H6.486z" class="cls-2" data-name="Path 3" transform="translate(8 20.25)"/>
+    <path id="Path_4" d="M6.486 23.294h7.568v2.118H6.486z" class="cls-2" data-name="Path 4" transform="translate(8 24.75)"/>
+</svg>

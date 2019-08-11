@@ -1,0 +1,39 @@
+.footer{
+    background-color: $color-footer;
+    padding: 10rem 4rem 5rem 4rem;
+    flex-wrap: wrap;
+    
+}
+
+.list{
+    &__item{
+        color: $color-text-3;
+        list-style: none;
+        letter-spacing: 0.55px;
+        margin-bottom: 1rem;
+        
+    }
+}
+
+.payment{
+    &__text{
+        color: $color-text-3;
+        letter-spacing: 0.55px;
+        
+    }
+    &__methods{
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+}
+
+.copyright{
+    border-top: 1px solid grey;
+    margin-top: 8rem;
+    padding-top: 4rem;
+    &__text{
+        color: rgba(255, 255, 255, 0.71);
+        letter-spacing: 0.4px;
+        
+    }
+}

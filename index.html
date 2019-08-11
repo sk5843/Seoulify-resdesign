@@ -47,8 +47,8 @@
         <img src="images/search.svg" alt="search" class="navbar__icon mr-auto" />
 
         <a href="#" class="navbar__link navbar__link--active">Home</a>
-        <a href="#" class="navbar__link">New arrival</a>
-        <a href="#" class="navbar__link">Dresses</a>
+        <a href="#newarrivals" class="navbar__link">New arrival</a>
+        <a href="#collections" class="navbar__link">Dresses</a>
         <a href="#" class="navbar__link">
           <img src="images/seoulify-logo.png" alt="logo" class="logo" />
         </a>
@@ -82,12 +82,31 @@
         <img src="images/add.svg" alt="add" class="btn__addicon" />
       </a>
     </div>
-    <a href="#" class="mb-5 btn btn__scrolldown">
+    <a href="#collections" class="mb-5 btn btn__scrolldown">
       <img src="images/arrow-down.svg" alt="arrow-down" class="btn__scrolldownicon" />
     </a>
+
     <section class="carousel">
-      <img src="images/model-2.png" alt="model" class="carousel__image" />
+      <div id="carousel" class="carousel slide vert" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active numbered numbered--1"></li>
+          <li data-target="#carousel" data-slide-to="1" class="numbered numbered--2"></li>
+          <li data-target="#carousel" data-slide-to="2" class="numbered numbered--3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="images/model-2.png" alt="model" class="carousel__image" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/model-2.png" alt="model" class="carousel__image" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/model-2.png" alt="model" class="carousel__image" />
+          </div>
+        </div>
+      </div>
     </section>
+
     <div class="shipping d-flex p-5">
       <img src="images/airplane.svg" alt="airplane" class="shipping__icon mr-5 ml-3" />
       <p class="shipping__text">
@@ -97,7 +116,7 @@
       </p>
     </div>
   </div>
-  <section class="collection d-flex align-items-center">
+  <section class="collection d-flex align-items-center" id="collections">
     <div class="collection__info">
       <p class="info__text mb-4">Collection AW 2019</p>
       <h1 class="heading heading--info mb-5">
@@ -141,7 +160,7 @@
     </div>
   </section>
 
-  <section class="collection d-flex flex-row-reverse align-items-center">
+  <section class="collection d-flex flex-row-reverse align-items-center" id="newarrivals">
     <div class="collection__info collection__info--reverse">
       <p class="info__text mb-4">New Arrival 2019</p>
       <h1 class="heading heading--info mb-5">
@@ -257,7 +276,7 @@
       <h1 class="heading heading--blogitem">Sego Awards<br>Gala</h1>
       <a href="" class="btn-2 btn-2--blogitem d-inline-block">Read more &gt</a>
     </div>
-    
+
   </div>
   <section class="features d-flex justify-content-between align-items-center">
     <div class="features__item">
@@ -324,7 +343,8 @@
     </div>
     <form action="#" class="footer__form">
       <h1 class="heading heading--footeritem">Let's stay in touch</h1>
-      <input class="newsletter__emailfield newsletter__emailfield--small" type="email" placeholder="Enter your email address" />
+      <input class="newsletter__emailfield newsletter__emailfield--small" type="email"
+        placeholder="Enter your email address" />
       <input class="btn-2 btn-2--newsletter btn-2--newsletter--small" type="button" value="Subscribe" />
       <p class="payment__text mt-5">Keep up to date with our latest<br> news and special offers.</p>
     </form>
